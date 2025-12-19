@@ -1,5 +1,6 @@
 on init
     write /proc/sys/kernel/hung_task_timeout_secs 0
+    start health-hal-2-1
 
 on late-init
     setprop ro.debuggable 1
