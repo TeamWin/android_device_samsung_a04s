@@ -154,5 +154,12 @@ TWRP_INCLUDE_LOGCAT := true
 TWRP_EVENT_LOGGING := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 
+# PBRP- ONLY FOR PITCH BLACK RECOVERY PROJECT BUILDING
+PB_TORCH_PATH := "/sys/devices/virtual/camera/flash/rear_flash"
+PB_TORCH_MAX_BRIGHTNESS := 1
+
 # Version
-TW_DEVICE_VERSION := SavedByLight Pre-Release
+TW_DEVICE_VERSION := SavedByLight Stable
+SHRP_MAINTAINER := SavedByLight
+OF_MAINTAINER := SavedByLight
+MAINTAINER := SavedByLight
